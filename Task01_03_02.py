@@ -7,7 +7,8 @@
 def Hypotenuza(ax, ay, bx, by):
     catet_a = ax - bx
     catet_b = ay - by
-    print((catet_a**2 + catet_b**2)**0.5)
+    hypotenuza = (catet_a**2 + catet_b**2)**0.5
+    print(round(hypotenuza, 2))
     
 
 
